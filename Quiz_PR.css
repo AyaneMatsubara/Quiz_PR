@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	background-color: #F5F5F5;
+	font-family: "Meiryo";
+	color: #707070;
+}
+header {
+	width: 100%;
+}
+h2 {
+	margin-bottom: 5px;
+    font-size: 35px;
+    color: #DF5656;
+}
+h3 {
+	font-size: 35px;
+	font-weight: bold;
+	color: #DF5656;
+	margin-top: 100px;
+}
+h4 {
+	font-size: 25px;
+	font-weight: bold;
+	color: #707070;
+}
+
+#page_top{
+  	width: 60px;
+  	height: 60px;
+  	position: fixed;
+  	right: -50px;
+  	bottom: 50px;
+  	background: #FFC400;
+  	opacity: 0.6;
+  	border-radius: 50%;
+  	box-shadow: 3px 3px 3px #CCCCCC;
+}
+#page_top a{
+  	position: relative;
+  	display: block;
+  	width: 60px;
+  	height: 60px;
+  	text-decoration: none;
+}
+#page_top a::before{
+  	font-family: FontAwesome;
+  	content: '\f102';
+  	font-size: 45px;
+  	color: #fff;
+  	position: absolute;
+  	width: 45px;
+  	height: 45px;
+  	top: 0;
+  	bottom: 0;
+  	right: 0;
+  	left: 0;
+  	margin: auto;
+  	text-align: center;
+}
+
+.header__img {
+	width: 100vw;
+}
+.inner {
+	width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.topic-list {
+	display: flex;
+	justify-content: space-between;
+}
+.topic-list-item {
+	width: 32%;
+	background-color: #FFFFFF;
+	box-shadow:3px 3px 3px #CCCCCC;
+}
+.topic-list-item img {
+	width: 100%;
+}
+.blur-img {
+	-webkit-filter: blur(3px);
+  	filter: blur(2px);
+  	-webkit-transition: .3s ease-in-out;
+  	transition: .3s ease-in-out;
+}
+.blur-img:hover {
+	-webkit-filter: blur(0);
+  	filter: blur(0);
+}
+.topic-list-item-txt {
+	width: 80%;
+    margin: 10px auto;
+    text-align: left;
+}
+.topic-list-item-txt span {
+	color: #F19393;
+    font-weight: bold;
+}
+.arrow {
+	margin: 70px auto;
+}
+
+.wh-back {
+	background-color: #FFFFFF;
+}
+.about-sec1 {
+	background: linear-gradient(0deg,rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("images/about-back.JPG");
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 130px;
+}
+.sec-tag {
+	width: 200px;
+	text-align: center;
+	background-color: #5B5B5B;
+	color: #FFFFFF;
+	margin: 50px auto;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.txt {
+	font-size: 20px;
+	margin-top: 30px;
+}
